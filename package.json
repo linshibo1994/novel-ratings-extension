@@ -1,0 +1,18 @@
+{
+  "name": "novel-ratings-extension",
+  "version": "1.0.0",
+  "description": "获取全网评分最高的各类型和题材小说前50名",
+  "main": "background/background.js",
+  "scripts": {
+    "build": "mkdir -p dist && zip -r dist/novel-ratings-extension.zip * -x \"dist/*\" -x \"*.git*\""
+  },
+  "keywords": [
+    "chrome-extension",
+    "novels",
+    "ratings",
+    "goodreads",
+    "douban"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 

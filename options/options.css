@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #4a69bd;
+}
+
+.option-section {
+  margin-bottom: 30px;
+}
+
+.option-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+  border-left: 4px solid #4a69bd;
+  padding-left: 10px;
+}
+
+.option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-group.buttons {
+  flex-direction: row;
+  gap: 15px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+select, button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+select {
+  width: 200px;
+}
+
+button {
+  background-color: #6a89cc;
+  color: white;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4a69bd;
+}
+
+button.danger {
+  background-color: #e74c3c;
+}
+
+button.danger:hover {
+  background-color: #c0392b;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#status-message {
+  font-size: 14px;
+}
+
+#status-message.success {
+  color: #27ae60;
+}
+
+#status-message.error {
+  color: #e74c3c;
+} 
